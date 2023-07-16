@@ -11,3 +11,7 @@ set showmatch
 set shiftwidth=2
 
 filetype plugin indent on
+
+if $REPOBASE != ""
+  set tags=$REPOBASE/tags
+endif

@@ -109,3 +109,18 @@ hi Search               guifg=NONE guibg=#754f22 guisp=#754f22 gui=NONE
 
 hi cCustomClass		guifg=#e431f5
 hi cCustomFunc		guifg=#972eb8
+
+"==tags=================================================================================
+
+hi def link eiMacroTag cDefine
+hi def link eiEnumTag cConstant
+hi def link eiVariableTag Identifier
+hi def link eiTypedefTag cType
+hi def link eiEnumTypeTag eiTypedefTag
+hi def link eiNamespaceTag eiTypedefTag
+hi def link eiStructTag eiTypedefTag
+hi def link eiUnionTag eiStructTag
+hi def link eiClassTag eiStructTag
+hi def link eiNestedClassTag eiClassTag
+hi def link eiFunctionTag cFunction
+hi def link eiMemberTag eiFunctionTag
